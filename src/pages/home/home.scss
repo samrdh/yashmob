@@ -32,4 +32,22 @@ page-home {
           color: #000000;
         }
       }
+
+      .swiper-pagination-bullet{
+        color: white !important;
+        background-color: transparent;
+        border: 1.5px groove rgb(10, 10, 10);
+        
+      }
+      .swiper-pagination-bullet-active{
+        color: goldenrod !important;
+        background-color: rgba(2, 2, 2, 0.247);
+      }
+
+      .welcomeheaderfont{
+        font-family: welcometitlefont;
+      }
+      .welcomemiddlefont{
+        font-family: welcomecontentfont;
+      }
 }

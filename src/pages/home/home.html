@@ -1,18 +1,18 @@
 <ion-content class="tutorial-page">
 
   <ion-slides pager>
-    <ion-slide *ngFor="let slide of slides">
+    <ion-slide [ngStyle]="{'background-color':slide.color}" *ngFor="let slide of slides">
          <ion-buttons end>
-          <button  ion-button clear (click)='ss()' >Skip</button>
+          <button  ion-button clear (click)='ss()' style="color:white" >Skip</button>
         </ion-buttons>
        <img [src]="slide.image" class="slide-image"/>
-      <h2 class="slide-title" [innerHTML]="slide.title"></h2>
-      <p [innerHTML]="slide.description"></p>
+      <h2 style="color:white" class="slide-title welcomeheaderfont" [innerHTML]="slide.title"></h2>
+      <p style="color:white" class="welcomemiddlefont" [innerHTML]="slide.description"></p>
     </ion-slide>
-    <ion-slide style="background: #f53d3d">
+    <ion-slide style="background: #986788">
       <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-      <h2 class="slide-title">Lets get started!</h2>
-      <button ion-button round (click)='ss()'>
+      <h2 class="slide-title" style="color:white">Lets get started!</h2>
+      <button ion-button round color="light" (click)='ss()' class="welcomeheaderfont">
         GET STARTED !
       </button>
     </ion-slide>
