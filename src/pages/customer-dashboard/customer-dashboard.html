@@ -1,0 +1,83 @@
+<ion-header>
+
+  <ion-navbar color="dark" class="headerfont">
+      <button ion-button menuToggle icon-only>
+          <ion-icon name='menu' color="light"></ion-icon>        
+      </button>
+    <ion-title>Customer Dashboard</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content no-padding>
+  
+  <ion-card class="cardmargin">
+  <ion-slides loop="true" autoplay="3000" pager no-padding>
+    <ion-slide *ngFor="let slide of slides">
+       <img [src]="slide.image" class="slide-image"/>
+    </ion-slide>
+  </ion-slides>
+</ion-card>
+  <hr>
+
+
+<datalist id="shp">
+  <option *ngFor="let a of shop;">{{a.name}}</option>
+</datalist>
+
+<ion-grid style="text-align: center">
+  <ion-row>
+    <ion-col col-8>
+      <ion-item>
+        <ion-input list="shp" type="text" placeholder="Select Store"></ion-input>
+      </ion-item>    
+    </ion-col>
+
+    <ion-col col-4>
+      <button ion-button outline>
+        GO
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+  <ion-grid style="text-align: center">
+      <h6>Geeta automation technologies
+      </h6>
+  </ion-grid>
+
+  <ion-grid style="text-align: center">
+      <h6>Gold
+        <br>
+        <small>memeber</small>
+      </h6>
+      
+  </ion-grid>
+
+
+  <ion-grid style="text-align: center">
+      <ion-row>
+        
+        <ion-col>
+        <h6>
+          <small>Rate Per Point</small>
+          <br>
+          2
+        </h6>
+        </ion-col>
+        
+        <ion-col>
+            <h6>
+                <small>Your Total Points</small>
+                <br>            
+                20
+            </h6>
+        </ion-col>
+        
+      </ion-row>
+
+  <button ion-button color="dark" round outline item-end icon-start (click)="navCtrl.push('RedeemdashPage')">Redeem</button>
+</ion-grid>
+
+</ion-content>

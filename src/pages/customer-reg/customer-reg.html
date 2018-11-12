@@ -1,0 +1,39 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Registeration</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+    <ion-list text-center>
+
+        <ion-item>
+          <ion-label floating>Name</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label floating>Email ID</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+
+        <ion-item>
+            <ion-label floating>Address</ion-label>
+            <ion-input type="text"></ion-input>
+        </ion-item>
+        <br>
+
+        <button ion-button round (click)="navCtrl.setRoot('CustomerDashboardPage')">SIGN IN</button>
+
+      </ion-list>
+
+      
+      <ion-footer>
+          <ion-toolbar color="dark">
+          <p text-center style="color: #878787">Copyright © All Rights Reserved 2018<br><a style="text-decoration: none;" href='http://www.yashgoa.com'>YASH GROUP</a></p>
+          </ion-toolbar>
+      </ion-footer>
+</ion-content>

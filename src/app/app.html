@@ -1,0 +1,19 @@
+<!--ion-nav [root]="rootPage"></ion-nav-->
+<ion-menu [content]="content" type="push">
+    <ion-content>
+        <ion-list>
+            <div>
+                <img src="assets/imgs/yashgroupgoa.png" padding>
+            </div>
+                
+                <button ion-item item-icon menuClose (click)="openCustomPage('ProfilesettingsPage')">
+                        <!--ion-icon ios="ios-contact" md="md-contact"></ion-icon--> Your Profile
+                </button>
+
+                <button ion-item item-icon menuClose (click)="openCustomPage('ChangemobilenoPage')">
+                        <!--ion-icon ios="ios-phone-portrait" md="md-phone-portrait"></ion-icon--> Change mobile no.
+                </button>
+        </ion-list>
+    </ion-content>
+</ion-menu>
+<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>

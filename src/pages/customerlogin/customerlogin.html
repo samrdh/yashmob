@@ -1,0 +1,29 @@
+<ion-header>
+
+  <ion-navbar color="dark">
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+      <ion-list text-center>
+        <ion-item align-center>
+          <ion-label floating>Enter mobile no.</ion-label>
+          <ion-input type="text"></ion-input>
+        </ion-item>
+        <br>
+        <button center ion-button color="light" round (click)="navCtrl.setRoot('CustomerDashboardPage')">GET OTP</button>
+      </ion-list>
+      
+      
+        <ion-label text-center style="color: #585656">New customer? <a  style="color: #585656" block  (click)="navCtrl.push('CustomerRegPage')"><b>Please Register</b></a></ion-label>
+
+        
+<ion-footer>
+    <ion-toolbar color="dark">
+    <p text-center style="color: #878787">Copyright © All Rights Reserved 2018<br><a style="text-decoration: none;" href='http://www.yashgoa.com'>YASH GROUP</a></p>
+    </ion-toolbar>
+</ion-footer>
+</ion-content>
