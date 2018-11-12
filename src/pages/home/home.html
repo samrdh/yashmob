@@ -7,11 +7,11 @@
         </ion-buttons>
        <img [src]="slide.image" class="slide-image"/>
       <h2 style="color:white" class="slide-title welcomeheaderfont" [innerHTML]="slide.title"></h2>
-      <p style="color:white" class="welcomemiddlefont" [innerHTML]="slide.description"></p>
+      <p style="color:white; font-weight: bold;" class="welcomemiddlefont" [innerHTML]="slide.description"></p>
     </ion-slide>
     <ion-slide style="background: #986788">
       <img src="assets/img/ica-slidebox-img-4.png" class="slide-image"/>
-      <h2 class="slide-title" style="color:white">Lets get started!</h2>
+      <h2 class="slide-title welcomeheaderfont" style="color:white">Lets get started!</h2>
       <button ion-button round color="light" (click)='ss()' class="welcomeheaderfont">
         GET STARTED !
       </button>
