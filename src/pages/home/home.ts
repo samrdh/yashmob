@@ -13,17 +13,17 @@ export class HomePage {
   slides = [
     {
       title: "Welcome to YASH",
-      description: "A place for businesses to <b>Grow</b> & Clients to  <b>Multiply</b> with no hastle.",
+      description: "a FUN & EASY way to get DISCOUNTS in selected stores.",
       image: "assets/imgs/yashgroupgoa.png",
     },
     {
       title: "Step 1",
-      description: "Login as a business associate to get started. <br><small><b>(You need to be registered through our website to login. If your not yet a member please follow the web link below to get yourself registered)</b></small>.<br><a href='http://www.yashgoa.com'>www.yashgoa.com</a>",
+      description: "Register & Login with your mobile number to get started",
       image: "assets/img/ica-slidebox-img-2.png",
     },
     {
       title: "Step 2",
-      description: "Once logged in as a business associate, <b>keep the customer login form opened to the customers</b> so, that they can get their bills verified",
+      description: "Select a store to view or redeem points",
       image: "assets/img/ica-slidebox-img-3.png",
     }
   ];

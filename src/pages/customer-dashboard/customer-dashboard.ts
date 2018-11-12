@@ -33,7 +33,7 @@ export class CustomerDashboardPage {
   constructor(public navCtrl: NavController, public navParams: NavParams,menu: MenuController) {
     menu.enable(true);
   this.shop=[
-    {name:"geeta",id:"1"},{name:"samrdh",id:"2"},{name:"yash",id:"3"},{name:"mk",id:"4"}
+    {name:"Geeta automation technologies",id:"1"},{name:"samrdh",id:"2"},{name:"yash",id:"3"},{name:"mk",id:"4"}
   ]
 
   }
