@@ -14,19 +14,19 @@ export class HomePage {
     {
       title: "Welcome to YASH",
       description: "a FUN & EASY way to get DISCOUNTS in selected stores.",
-      image: "assets/imgs/yashgroupgoa.png",
+      image: "assets/imgs/yashgrp.png",
       color:"#8dae37",
     },
     {
       title: "Step 1",
       description: "Register & Login with your mobile number to get started",
-      image: "assets/img/ica-slidebox-img-2.png",
+      image: "assets/imgs/mobile.png",
       color:"#dbae0a",
     },
     {
       title: "Step 2",
       description: "Select a store to view or redeem points",
-      image: "assets/img/ica-slidebox-img-3.png",
+      image: "assets/imgs/shop.png",
       color:"#3fa6a0",
     }
   ];
